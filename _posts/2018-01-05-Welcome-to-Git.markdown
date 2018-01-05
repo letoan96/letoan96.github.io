@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git commands"
-date:   2018-01-04 16:37:20 +0700
+date:   2018-01-05 13:37:20 +0700
 categories: jekyll update
 ---
 This post is about Git commands
