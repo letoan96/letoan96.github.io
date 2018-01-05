@@ -2,7 +2,7 @@
 layout: post
 title:  "Linux commands"
 date:   2018-01-02 16:37:20 +0700
-categories: jekyll update
+categories: Linux
 ---
 This post is about Linux commands
 

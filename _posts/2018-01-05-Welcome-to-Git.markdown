@@ -2,7 +2,7 @@
 layout: post
 title:  "Git commands"
 date:   2018-01-05 13:37:20 +0700
-categories: jekyll update
+categories: Git
 ---
 This post is about Git commands
 
