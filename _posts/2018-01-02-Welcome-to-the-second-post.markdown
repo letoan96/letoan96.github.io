@@ -1,1 +1,0 @@
-<header>The second post</header>
