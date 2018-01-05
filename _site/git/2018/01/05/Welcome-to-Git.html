@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Git commands</title>
-  <meta name="description" content="This post is about Git commands">
+  <meta name="description" content="This post is about Git commandsgit add .Add all files from current directory into indexgit statusShow status in the workspace and indexgit commit -m "commit ...">
 
   
   
@@ -61,6 +61,34 @@
 
   <div class="prose" itemprop="articleBody">
       <p>This post is about Git commands</p>
+<h3>git add .</h3>
+<p>Add all files from current directory into index</p>
+<h3>git status</h3>
+<p>Show status in the workspace and index</p>
+<h3>git commit -m "commit message"</h3>
+<p>Commit all files in the index into local responsitory</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"first commit"</span></code></pre></figure>
+
+<h3>git clone [responsitory link] </h3>
+<p>Clone a repository into a newly created local directory</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="nb">clone</span> <span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="p">.</span><span class="nf">com</span><span class="o">/</span><span class="n">letoan96</span><span class="o">/</span><span class="n">letoan96</span><span class="p">.</span><span class="nf">github</span><span class="p">.</span><span class="nf">io</span><span class="p">.</span><span class="nf">git</span></code></pre></figure>
+
+<h3>git push</h3>
+<p>Push local reponsitory to remote reponsitory</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span></code></pre></figure>
+
+<h3>git remote add [remote-name] [url]</h3>
+<p>Set a new remote</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="p">.</span><span class="nf">com</span><span class="o">/</span><span class="n">letoan96</span><span class="o">/</span><span class="n">letoan96</span><span class="p">.</span><span class="nf">github</span><span class="p">.</span><span class="nf">io</span><span class="p">.</span><span class="nf">git</span></code></pre></figure>
+
+<h3>git pull [remote] [branch]</h3>
+<p>incorporate changes from a remote repository into the current branch</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
 
 <p><img src="/Git_command_cheatography.png" alt="image tooltip here" />
 <img src="/Git_command_cheatography_2.png" alt="image tooltip here" /></p>
