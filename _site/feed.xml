@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-05T16:27:42+07:00</updated><id>http://localhost:4000/</id><title type="html">Ruby on rails</title><subtitle>This is my persional blog for Ruby on Rails</subtitle><entry><title type="html">Git commands</title><link href="http://localhost:4000/git/2018/01/05/Welcome-to-Git.html" rel="alternate" type="text/html" title="Git commands" /><published>2018-01-05T13:37:20+07:00</published><updated>2018-01-05T13:37:20+07:00</updated><id>http://localhost:4000/git/2018/01/05/Welcome-to-Git</id><content type="html" xml:base="http://localhost:4000/git/2018/01/05/Welcome-to-Git.html">&lt;p&gt;This post is about Git commands&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-19T10:27:05+07:00</updated><id>http://localhost:4000/</id><title type="html">Ruby on rails</title><subtitle>This is my persional blog for Ruby on Rails</subtitle><entry><title type="html">Suitcrm - Web-to-Lead</title><link href="http://localhost:4000/git/2018/01/18/Web-to-Lead.html" rel="alternate" type="text/html" title="Suitcrm - Web-to-Lead" /><published>2018-01-18T23:38:30+07:00</published><updated>2018-01-18T23:38:30+07:00</updated><id>http://localhost:4000/git/2018/01/18/Web-to-Lead</id><content type="html" xml:base="http://localhost:4000/git/2018/01/18/Web-to-Lead.html">&lt;p&gt;This post is about SuitCRM&lt;/p&gt;
+
+&lt;html lang=&quot;en_us&quot;&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;style type=&quot;text/css&quot;&gt;&lt;!--
+form#WebToLeadForm, form#WebToLeadForm * {margin: 0; padding: 0; border: none; color: #333; font-size: 12px; line-height: 1.6em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+form#WebToLeadForm {float: left; border: 1px solid #ccc; margin: 10px;}
+form#WebToLeadForm h1 {font-size: 32px; font-weight: bold; background-color: rgb(60, 141, 188); color: rgb(247, 247, 247); padding: 10px 20px;}
+form#WebToLeadForm h2 {font-size: 24px; font-weight: bold; background-color: rgb(60, 141, 188); color: rgb(247, 247, 247); padding: 10px 20px;}
+form#WebToLeadForm h3 {font-size: 12px; font-weight: bold; padding: 10px 20px;}
+form#WebToLeadForm h4 {font-size: 10px; font-weight: bold; padding: 10px 20px;}
+form#WebToLeadForm h5 {font-size: 8px; font-weight: bold; padding: 10px 20px;}
+form#WebToLeadForm h6 {font-size: 6px; font-weight: bold; padding: 10px 20px;}
+form#WebToLeadForm p {padding: 10px 20px;}
+form#WebToLeadForm input,
+form#WebToLeadForm select,
+form#WebToLeadForm textarea {border: 1px solid #ccc; display: block; float: left; min-width: 170px; padding: 5px;}
+form#WebToLeadForm select {background-color: white;}
+form#WebToLeadForm input[type=&quot;button&quot;],
+form#WebToLeadForm input[type=&quot;submit&quot;] {display: inline; float: none; padding: 5px 10px; width: auto; min-width: auto;}
+form#WebToLeadForm input[type=&quot;checkbox&quot;],
+form#WebToLeadForm input[type=&quot;radio&quot;] {width: 18px; min-width: auto;}
+form#WebToLeadForm div.col {display: block; float: left; width: 330px; padding: 10px 20px;}
+form#WebToLeadForm div.clear {display: block; float: none; clear: both; height: 0px; overflow: hidden;}
+form#WebToLeadForm div.center {text-align: center;}
+form#WebToLeadForm div.buttons {padding: 10px 0; border-top: 1px solid #ccc; background-color: #f7f7f7}
+form#WebToLeadForm label {display: block; float: left; width: 160px; font-weight: bold;}
+form#WebToLeadForm span.required {color: #FF0000;}
+--&gt;&lt;/style&gt;
+&lt;!-- TODO ???
+&lt;script type=&quot;text/javascript&quot; src='http://localhost:8881/cache/include/javascript/sugar_grp1.js?v=4v6jWMXEWD9t6Hwny4mKjg'&gt;&lt;/script&gt;
+--&gt;&lt;form id=&quot;WebToLeadForm&quot; action=&quot;http://localhost:8881/index.php?entryPoint=WebToPersonCapture&quot; method=&quot;POST&quot; name=&quot;WebToLeadForm&quot;&gt;
+&lt;h2&gt;Web form to create Leads&lt;/h2&gt;
+&lt;p&gt;Submitting this form will create Leads&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col&quot;&gt;&lt;label&gt;First Name: &lt;/label&gt;&lt;input name=&quot;first_name&quot; id=&quot;first_name&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;col&quot;&gt;&lt;label&gt;Last Name: &lt;span class=&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;&lt;input name=&quot;last_name&quot; id=&quot;last_name&quot; type=&quot;text&quot; required=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;clear&quot;&gt;� &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col&quot;&gt;&lt;label&gt;Title: &lt;/label&gt;&lt;input name=&quot;title&quot; id=&quot;title&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;col&quot;&gt;&lt;label&gt;Description: &lt;/label&gt;&lt;span class=&quot;sugarslot&quot;&gt;&lt;textarea name=&quot;description&quot; id=&quot;description&quot;&gt; &lt;/textarea&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;clear&quot;&gt;� &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col&quot;&gt;&lt;label&gt;Mobile: &lt;/label&gt;&lt;input name=&quot;phone_mobile&quot; id=&quot;phone_mobile&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;col&quot;&gt;&lt;label&gt;Office Phone: &lt;/label&gt;&lt;input name=&quot;phone_work&quot; id=&quot;phone_work&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;clear&quot;&gt;� &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col&quot;&gt;&lt;label&gt;Email Address: &lt;/label&gt;&lt;input name=&quot;email1&quot; id=&quot;email1&quot; type=&quot;email&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;col&quot;&gt;� &lt;/div&gt;
+&lt;div class=&quot;clear&quot;&gt;� &lt;/div&gt;
+&lt;/div&gt;
+Công ty phân bón
+&lt;div class=&quot;row center buttons&quot;&gt;&lt;input class=&quot;button&quot; name=&quot;Submit&quot; type=&quot;submit&quot; value=&quot;Submit&quot; onclick=&quot;submit_form();&quot; /&gt;
+&lt;div class=&quot;clear&quot;&gt;� &lt;/div&gt;
+&lt;/div&gt;
+&lt;input name=&quot;campaign_id&quot; id=&quot;campaign_id&quot; type=&quot;hidden&quot; value=&quot;9891a3dd-4ab3-5c48-6e35-5a60ce4e2694&quot; /&gt; &lt;input name=&quot;assigned_user_id&quot; id=&quot;assigned_user_id&quot; type=&quot;hidden&quot; value=&quot;1&quot; /&gt; &lt;input name=&quot;moduleDir&quot; id=&quot;moduleDir&quot; type=&quot;hidden&quot; value=&quot;Leads&quot; /&gt;&lt;/form&gt;
+&lt;p&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+    function submit_form() {
+        if (typeof(validateCaptchaAndSubmit) != 'undefined') {
+            validateCaptchaAndSubmit();
+        } else {
+            check_webtolead_fields();
+            //document.WebToLeadForm.submit();
+        }
+    }
+
+    function check_webtolead_fields() {
+        if (document.getElementById('bool_id') != null) {
+            var reqs = document.getElementById('bool_id').value;
+            bools = reqs.substring(0, reqs.lastIndexOf(';'));
+            var bool_fields = new Array();
+            var bool_fields = bools.split(';');
+            nbr_fields = bool_fields.length;
+            for (var i = 0; i &lt; nbr_fields; i++) {
+                if (document.getElementById(bool_fields[i]).value == 'on') {
+                    document.getElementById(bool_fields[i]).value = 1;
+                } else {
+                    document.getElementById(bool_fields[i]).value = 0;
+                }
+            }
+        }
+    }
+// ]]&gt;&lt;/script&gt;
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</content><author><name></name></author><summary type="html">This post is about SuitCRM</summary></entry><entry><title type="html">Git commands</title><link href="http://localhost:4000/git/2018/01/05/Welcome-to-Git.html" rel="alternate" type="text/html" title="Git commands" /><published>2018-01-05T13:37:20+07:00</published><updated>2018-01-05T13:37:20+07:00</updated><id>http://localhost:4000/git/2018/01/05/Welcome-to-Git</id><content type="html" xml:base="http://localhost:4000/git/2018/01/05/Welcome-to-Git.html">&lt;p&gt;This post is about Git commands&lt;/p&gt;
 &lt;h3&gt;git add .&lt;/h3&gt;
 &lt;p&gt;Add all files from current directory into index&lt;/p&gt;
 &lt;h3&gt;git status&lt;/h3&gt;
