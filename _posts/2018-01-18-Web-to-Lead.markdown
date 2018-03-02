@@ -5,7 +5,7 @@ date:   2018-01-18 23:38:30 +0700
 categories: Git
 ---
 This post is about SuitCRM
-
+<!-- CRM -->
 <html lang='en_us'><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><style type="text/css"><!--
 form#WebToLeadForm, form#WebToLeadForm * {margin: 0; padding: 0; border: none; color: #333; font-size: 12px; line-height: 1.6em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 form#WebToLeadForm {float: left; border: 1px solid #ccc; margin: 10px;}
@@ -90,7 +90,7 @@ Công ty phân bón
     }
 // ]]></script>
 </p></body></html>
-
+<!-- CRM -->
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll

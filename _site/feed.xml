@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-19T10:27:05+07:00</updated><id>http://localhost:4000/</id><title type="html">Ruby on rails</title><subtitle>This is my persional blog for Ruby on Rails</subtitle><entry><title type="html">Suitcrm - Web-to-Lead</title><link href="http://localhost:4000/git/2018/01/18/Web-to-Lead.html" rel="alternate" type="text/html" title="Suitcrm - Web-to-Lead" /><published>2018-01-18T23:38:30+07:00</published><updated>2018-01-18T23:38:30+07:00</updated><id>http://localhost:4000/git/2018/01/18/Web-to-Lead</id><content type="html" xml:base="http://localhost:4000/git/2018/01/18/Web-to-Lead.html">&lt;p&gt;This post is about SuitCRM&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-02T11:38:04+07:00</updated><id>http://localhost:4000/</id><title type="html">Ruby on rails</title><subtitle>This is my persional blog for Ruby on Rails</subtitle><entry><title type="html">Debugging Rails App</title><link href="http://localhost:4000/2018/03/02/Debugging-Rails-App.html" rel="alternate" type="text/html" title="Debugging Rails App" /><published>2018-03-02T00:00:00+07:00</published><updated>2018-03-02T00:00:00+07:00</updated><id>http://localhost:4000/2018/03/02/Debugging-Rails-App</id><content type="html" xml:base="http://localhost:4000/2018/03/02/Debugging-Rails-App.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4&gt;Three ways to do:&lt;/h4&gt;
+    &lt;p&gt;&amp;lt;% debug @article %&amp;gt;&lt;br /&gt;
+  &amp;lt;% simple_format @article.to_yaml %&amp;gt;&lt;br /&gt;
+  &amp;lt;% [].inspect %&amp;gt; //useful will arrays&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;p&gt;&lt;b&gt;Logger levels:&lt;/b&gt; :debug, :info, :warn, :error, :fatal, :unknown&lt;br /&gt;
+&lt;b&gt;Class: ActiveSupport::Logger&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;Rails displays log if the log level is higher or equal to the configured log level.&lt;/b&gt;&lt;br /&gt;
+Use &lt;b&gt;“Rails.logger.level”&lt;/b&gt; to know the current log level.&lt;br /&gt;
+Use &lt;b&gt;“Rails.logger.level = 1” &lt;/b&gt;to set the log level.&lt;br /&gt;
+“logger.debug ‘debug message’ “, “@variable.inspect” –&amp;gt; in Controller, Model, View, Mailer&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4&gt;gem byebug (gem install byebug)&lt;/h4&gt;
+    &lt;p&gt;&lt;b&gt;next:&lt;/b&gt; next line &lt;br /&gt;
+  &lt;b&gt;step:&lt;/b&gt; like next but go inside methods&lt;br /&gt;
+  &lt;b&gt;help var &lt;/b&gt;–&amp;gt; display hepl&lt;br /&gt;
+  &lt;b&gt;help set&lt;/b&gt; –&amp;gt; settings&lt;br /&gt;
+  &lt;b&gt;instance_variable:&lt;/b&gt; see all available instance variable&lt;br /&gt;
+  &lt;b&gt;var local:&lt;/b&gt; see local variables&lt;br /&gt;
+  &lt;b&gt;var instance [Oject].new:&lt;/b&gt; inspect for an oject method&lt;br /&gt;
+  &lt;b&gt;display [@variable]:&lt;/b&gt; &lt;br /&gt;
+  &lt;b&gt;break [n]:&lt;/b&gt; &lt;br /&gt;
+  &lt;b&gt;info breakpoints:&lt;/b&gt; list all breakpoints&lt;br /&gt;
+  &lt;b&gt;delete[n]:&lt;/b&gt; delete breakpoint n&lt;br /&gt;
+  &lt;b&gt;continue:&lt;/b&gt; resume execution bypass all the breakpoints&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Three ways to do: &amp;lt;% debug @article %&amp;gt; &amp;lt;% simple_format @article.to_yaml %&amp;gt; &amp;lt;% [].inspect %&amp;gt; //useful will arrays</summary></entry><entry><title type="html">Suitcrm - Web-to-Lead</title><link href="http://localhost:4000/git/2018/01/18/Web-to-Lead.html" rel="alternate" type="text/html" title="Suitcrm - Web-to-Lead" /><published>2018-01-18T23:38:30+07:00</published><updated>2018-01-18T23:38:30+07:00</updated><id>http://localhost:4000/git/2018/01/18/Web-to-Lead</id><content type="html" xml:base="http://localhost:4000/git/2018/01/18/Web-to-Lead.html">&lt;p&gt;This post is about SuitCRM
+&lt;!-- CRM --&gt;&lt;/p&gt;
 &lt;html lang=&quot;en_us&quot;&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;style type=&quot;text/css&quot;&gt;&lt;!--
 form#WebToLeadForm, form#WebToLeadForm * {margin: 0; padding: 0; border: none; color: #333; font-size: 12px; line-height: 1.6em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 form#WebToLeadForm {float: left; border: 1px solid #ccc; margin: 10px;}
@@ -83,7 +115,8 @@ Công ty phân bón
         }
     }
 // ]]&gt;&lt;/script&gt;
-&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</content><author><name></name></author><summary type="html">This post is about SuitCRM</summary></entry><entry><title type="html">Git commands</title><link href="http://localhost:4000/git/2018/01/05/Welcome-to-Git.html" rel="alternate" type="text/html" title="Git commands" /><published>2018-01-05T13:37:20+07:00</published><updated>2018-01-05T13:37:20+07:00</updated><id>http://localhost:4000/git/2018/01/05/Welcome-to-Git</id><content type="html" xml:base="http://localhost:4000/git/2018/01/05/Welcome-to-Git.html">&lt;p&gt;This post is about Git commands&lt;/p&gt;
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;!-- CRM --&gt;</content><author><name></name></author><summary type="html">This post is about SuitCRM Web form to create Leads Submitting this form will create Leads First Name: Last Name: * � Title: Description: � Mobile: Office Phone: � Email Address: � � Công ty phân bón �</summary></entry><entry><title type="html">Git commands</title><link href="http://localhost:4000/git/2018/01/05/Welcome-to-Git.html" rel="alternate" type="text/html" title="Git commands" /><published>2018-01-05T13:37:20+07:00</published><updated>2018-01-05T13:37:20+07:00</updated><id>http://localhost:4000/git/2018/01/05/Welcome-to-Git</id><content type="html" xml:base="http://localhost:4000/git/2018/01/05/Welcome-to-Git.html">&lt;p&gt;This post is about Git commands&lt;/p&gt;
 &lt;h3&gt;git add .&lt;/h3&gt;
 &lt;p&gt;Add all files from current directory into index&lt;/p&gt;
 &lt;h3&gt;git status&lt;/h3&gt;
